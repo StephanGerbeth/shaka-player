@@ -1,5 +1,5 @@
 {
-  "name": "shaka-player",
+  "name": "@modified/shaka-player",
   "description": "DASH/EME video player library",
   "version": "3.0.0",
   "homepage": "https://github.com/google/shaka-player",
@@ -67,7 +67,7 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "prepublishOnly": "python build/checkversion.py && python build/all.py --force"
+    "prepublishOnly": "python build/all.py --force"
   },
   "dependencies": {
     "eme-encryption-scheme-polyfill": "^2.0.1"
