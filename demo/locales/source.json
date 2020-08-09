@@ -415,6 +415,10 @@
     "description": "The name of a configuration value.",
     "message": "Max Attempts"
   },
+  "DEMO_ORIENTATION": {
+    "description": "The name of a configuration value.",
+    "message": "Orientation"
+  },
   "DEMO_MAX_BANDWIDTH": {
     "description": "The name of a configuration value.",
     "message": "Max Bandwidth"

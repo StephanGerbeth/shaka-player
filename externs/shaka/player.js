@@ -318,7 +318,9 @@ shaka.extern.TrackList;
  *   maxFrameRate: number,
  *
  *   minBandwidth: number,
- *   maxBandwidth: number
+ *   maxBandwidth: number,
+ *
+ *   orientation: number
  * }}
  *
  * @description
@@ -355,6 +357,8 @@ shaka.extern.TrackList;
  *   The minimum bandwidth of a variant track, in bit/sec.
  * @property {number} maxBandwidth
  *   The maximum bandwidth of a variant track, in bit/sec.
+ * @property {number} orientation
+ *   The orientation of a video track.
  * @exportDoc
  */
 shaka.extern.Restrictions;
