@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  root: true,
   rules: {},
   configs: {
     config: {
